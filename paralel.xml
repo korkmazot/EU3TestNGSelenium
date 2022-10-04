@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" thread-count="3" parallel="methods" >
+    <test name="deneme">
+        <classes>
+            <class name="com.cybertek.denemeler.MainClass">
+            </class>
+            <class name="com.cybertek.denemeler.MainClass2"> </class>
+        </classes>
+    </test>
+</suite>
